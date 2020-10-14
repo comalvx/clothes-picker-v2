@@ -1,0 +1,10 @@
+<h1>Create a new clothe</h1>
+
+<%= simple_form_for @clothe do |f| %>
+  <%= f.input :name %>
+  <%= f.input :type %>
+  <%= f.input :weather %>
+  <%= f.input :temprature %>
+  <%= f.input :tag %>
+  <%= f.submit %>
+<% end %>
