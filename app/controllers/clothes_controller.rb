@@ -25,7 +25,7 @@ class ClothesController < ApplicationController
   private
 
   def clothes_params
-    params.require(:clothe).permit(:name, :weather, :temperature, :type, :tag)
+    params.require(:clothe).permit(:name, :weather, :temperature, :clothe_type, :tag)
   end
 
 end
